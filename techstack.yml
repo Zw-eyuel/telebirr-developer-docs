@@ -1,0 +1,592 @@
+repo_name: telebirr-playstore/telebirr-developer-docs
+report_id: 39886759352342bd2c455456d9ce3901
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-26T13:16:14+00:00'
+requested_by: robertnicolo-okta
+provider: github
+branch: master
+detected_tools_count: 43
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/telebirr-playstore/telebirr-developer-docs
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/telebirr-playstore/telebirr-developer-docs/blob/master/packages/@okta/vuepress-site/package.json
+  detection_source: packages/@okta/vuepress-site/package.json
+  last_updated_by: Brian Retterer
+  last_updated_on: 2019-02-14 22:12:22.000000000 Z
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  version: 4.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: https://github.com/telebirr-playstore/telebirr-developer-docs/blob/master/yarn.lock
+  detection_source: packages/@okta/vuepress-site/package.json
+  last_updated_by: francoislehoux-okta
+  last_updated_on: 2022-04-22 15:49:21.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/telebirr-playstore/telebirr-developer-docs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Brian Retterer
+  last_updated_on: 2019-02-14 22:12:22.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source_url: https://github.com/telebirr-playstore/telebirr-developer-docs/blob/master/packages/@okta/vuepress-site/package.json
+  detection_source: packages/@okta/vuepress-site/package.json
+  last_updated_by: Brian Retterer
+  last_updated_on: 2019-02-14 22:12:22.000000000 Z
+- name: Vue.js
+  description: A progressive framework for building user interfaces
+  website_url: http://vuejs.org/
+  version: 2.6.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript MVC Frameworks
+  image_url: https://img.stackshare.io/service/3837/paeckCWC.png
+  detection_source_url: https://github.com/telebirr-playstore/telebirr-developer-docs/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Brian Retterer
+  last_updated_on: 2019-02-14 22:12:22.000000000 Z
+- name: Chai
+  description: A BDD / TDD assertion library
+  website_url: http://chaijs.com/
+  version: 4.3.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/1725/chai.png
+  detection_source_url: https://github.com/telebirr-playstore/telebirr-developer-docs/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Brian Retterer
+  last_updated_on: 2019-02-14 22:12:22.000000000 Z
+- name: CircleCI
+  description: Automate your development process quickly, safely, and at scale
+  website_url: https://circleci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
+  detection_source_url: https://github.com/telebirr-playstore/telebirr-developer-docs/blob/master/.circleci/config.yml
+  detection_source: ".circleci/config.yml"
+  last_updated_by: emikhasyak-okta
+  last_updated_on: 2023-08-30 02:45:34.000000000 Z
+- name: Cypress
+  description: When testing is easy, developers build better things faster and with
+    confidence.
+  website_url: https://www.cypress.io/
+  version: 9.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/9231/default_66c5c1a197dcd0232e41e4ab6299d119b4e165b3.png
+  detection_source_url: https://github.com/telebirr-playstore/telebirr-developer-docs/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: emikhasyak-okta
+  last_updated_on: 2023-08-04 19:25:18.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/telebirr-playstore/telebirr-developer-docs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Brian Retterer
+  last_updated_on: 2019-02-14 22:12:22.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/telebirr-playstore/telebirr-developer-docs
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/telebirr-playstore/telebirr-developer-docs/blob/master/.github/workflows/build-and-checks.js.yml
+  detection_source: ".github/workflows/build-and-checks.js.yml"
+  last_updated_by: francoislehoux-okta
+  last_updated_on: 2022-12-16 02:03:18.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 27.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/telebirr-playstore/telebirr-developer-docs/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Brian Retterer
+  last_updated_on: 2019-02-14 22:12:22.000000000 Z
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  version: 9.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: https://github.com/telebirr-playstore/telebirr-developer-docs/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: francoislehoux-okta
+  last_updated_on: 2022-04-22 15:49:21.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/telebirr-playstore/telebirr-developer-docs/blob/master/packages/@okta/vuepress-site/package.json
+  detection_source: packages/@okta/vuepress-site/package.json
+  last_updated_by: Brian Retterer
+  last_updated_on: 2019-02-14 22:12:22.000000000 Z
+- name: Stylelint
+  description: A mighty, modern CSS linter
+  website_url: http://stylelint.io/
+  version: 14.16.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/5446/V9JsvPul_400x400.jpg
+  detection_source_url: https://github.com/telebirr-playstore/telebirr-developer-docs/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: emikhasyak-okta
+  last_updated_on: 2023-11-30 18:10:19.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 4.46.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/telebirr-playstore/telebirr-developer-docs/blob/master/yarn.lock
+  detection_source: packages/@okta/vuepress-site/package.json
+  last_updated_by: francoislehoux-okta
+  last_updated_on: 2022-04-13 17:30:11.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/telebirr-playstore/telebirr-developer-docs/blob/master/yarn.lock
+  detection_source: yarn.lock
+  last_updated_by: Brian Retterer
+  last_updated_on: 2019-02-14 22:12:22.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/telebirr-playstore/telebirr-developer-docs/blob/master/packages/@okta/vuepress-theme-prose/package.json
+  detection_source: packages/@okta/vuepress-theme-prose/package.json
+  last_updated_by: Brian Retterer
+  last_updated_on: 2020-02-20 14:34:27.000000000 Z
+- name: Google reCaptcha
+  description: A free service that protects your website from spam and abuse
+  website_url: https://www.google.com/recaptcha/intro/index.html
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Security
+  image_url: https://img.stackshare.io/service/4482/dVHQiE0t_400x400.png
+  detection_source_url: https://github.com/telebirr-playstore/telebirr-developer-docs/blob/master/packages/@okta/vuepress-theme-prose/package.json
+  detection_source: packages/@okta/vuepress-theme-prose/package.json
+  last_updated_by: volodymyrmakarchuk-okta
+  last_updated_on: 2020-12-15 18:23:36.000000000 Z
+- name: Luxon
+  description: Library for working with dates and times in Javascript
+  website_url: https://moment.github.io/luxon/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/10330/no-img-open-source.png
+  detection_source_url: https://github.com/telebirr-playstore/telebirr-developer-docs/blob/master/packages/@okta/vuepress-theme-prose/package.json
+  detection_source: packages/@okta/vuepress-theme-prose/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-01-11 16:41:45.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/telebirr-playstore/telebirr-developer-docs
+  detection_source: Repo Metadata
+- name: VuePress
+  description: A static-site generator built by the Vue.js team
+  website_url: https://vuepress.vuejs.org/
+  version: 1.9.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Static Site Generators
+  image_url: https://img.stackshare.io/service/8863/paeckCWC.png
+  detection_source_url: https://github.com/telebirr-playstore/telebirr-developer-docs/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: emikhasyak-okta
+  last_updated_on: 2023-08-04 19:25:18.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.26.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/telebirr-playstore/telebirr-developer-docs/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: francoislehoux-okta
+  last_updated_on: 2022-04-19 21:20:13.000000000 Z
+- name: chalk
+  description: terminal colors
+  website_url: https://github.com/chalk/chalk
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8072/13122722.png
+  detection_source_url: https://github.com/telebirr-playstore/telebirr-developer-docs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: emikhasyak-okta
+  last_updated_on: 2023-08-01 17:35:32.000000000 Z
+- name: xml2js
+  description: Simple XML to JavaScript object converter
+  package_url: https://www.npmjs.com/xml2js
+  version: 0.4.23
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16122/default_efe4f0184d007a28e793d89a59e058b742bc9177.png
+  detection_source_url: https://github.com/telebirr-playstore/telebirr-developer-docs/blob/master/yarn.lock
+  detection_source: packages/@okta/vuepress-site/package.json
+  last_updated_by: Brett Ritter
+  last_updated_on: 2019-05-16 21:04:25.000000000 Z
+  vulnerabilities:
+  - name: xml2js is vulnerable to prototype pollution
+    cve_id: CVE-2023-0842
+    cve_url: https://github.com/advisories/GHSA-776f-qx25-q3cc
+    detected_date: Apr 8
+    severity: moderate
+    first_patched: 0.5.0
+- name: chai-as-promised
+  description: Extends Chai with assertions about promises
+  package_url: https://www.npmjs.com/chai-as-promised
+  version: 7.1.1
+  license: WTFPL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15970/default_cbd6c289400672b291755183817e9dd6abe1a612.png
+  detection_source_url: https://github.com/telebirr-playstore/telebirr-developer-docs/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Harutyun K
+  last_updated_on: 2022-12-19 20:11:26.000000000 Z
+- name: chalk
+  description: Terminal string styling done right
+  package_url: https://www.npmjs.com/chalk
+  version: 1.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15813/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/telebirr-playstore/telebirr-developer-docs/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: emikhasyak-okta
+  last_updated_on: 2023-08-01 17:35:32.000000000 Z
+- name: eslint-plugin-vue
+  description: Official ESLint plugin for Vue.js
+  package_url: https://www.npmjs.com/eslint-plugin-vue
+  version: 9.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15950/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/telebirr-playstore/telebirr-developer-docs/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: emikhasyak-okta
+  last_updated_on: 2023-11-30 18:10:19.000000000 Z
+- name: esm
+  description: Tomorrow's ECMAScript modules today!
+  package_url: https://www.npmjs.com/esm
+  version: 3.2.25
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16371/default_17385ab3aa01d4c295c08d4a9736140df691c5e9.png
+  detection_source_url: https://github.com/telebirr-playstore/telebirr-developer-docs/blob/master/yarn.lock
+  detection_source: packages/@okta/vuepress-site/package.json
+  last_updated_by: Brian Retterer
+  last_updated_on: 2019-02-14 22:12:22.000000000 Z
+- name: js-yaml
+  description: YAML 1.2 parser and serializer
+  package_url: https://www.npmjs.com/js-yaml
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15997/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/telebirr-playstore/telebirr-developer-docs/blob/master/yarn.lock
+  detection_source: packages/@okta/vuepress-site/package.json
+  last_updated_by: Brett Ritter
+  last_updated_on: 2019-04-26 20:50:17.000000000 Z
+- name: jwt-decode
+  description: Decode JWT tokens, mostly useful for browser applications
+  package_url: https://www.npmjs.com/jwt-decode
+  version: 3.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17395/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: https://github.com/telebirr-playstore/telebirr-developer-docs/blob/master/yarn.lock
+  detection_source: packages/@okta/vuepress-theme-prose/package.json
+  last_updated_by: François Lehoux
+  last_updated_on: 2021-01-15 22:40:17.000000000 Z
+- name: lodash.throttle
+  description: The lodash method `_.throttle` exported as a module
+  package_url: https://www.npmjs.com/lodash.throttle
+  version: 4.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16643/default_8bb559d64720e298d7108ccd64281e535c1c76a8.png
+  detection_source_url: https://github.com/telebirr-playstore/telebirr-developer-docs/blob/master/yarn.lock
+  detection_source: packages/@okta/vuepress-plugin-active-header-links/package.json
+  last_updated_by: Brian Retterer
+  last_updated_on: 2019-03-19 21:02:44.000000000 Z
+- name: markdown-it
+  description: Markdown-it - modern pluggable markdown parser
+  package_url: https://www.npmjs.com/markdown-it
+  version: 12.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16277/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: https://github.com/telebirr-playstore/telebirr-developer-docs/blob/master/yarn.lock
+  detection_source: packages/@okta/vuepress-site/package.json
+  last_updated_by: francoislehoux-okta
+  last_updated_on: 2023-01-31 23:06:55.000000000 Z
+- name: postcss-scss
+  description: SCSS parser for PostCSS
+  package_url: https://www.npmjs.com/postcss-scss
+  version: 4.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16233/default_dc80ff0a17bac19253430a4f0f586714841116db.png
+  detection_source_url: https://github.com/telebirr-playstore/telebirr-developer-docs/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: emikhasyak-okta
+  last_updated_on: 2023-10-23 15:40:12.000000000 Z
+- name: query-string
+  description: Parse and stringify URL query strings
+  package_url: https://www.npmjs.com/query-string
+  version: 7.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16244/default_380ae3d73e22c7ca1f42b96479bcd0095dabc0d3.png
+  detection_source_url: https://github.com/telebirr-playstore/telebirr-developer-docs/blob/master/yarn.lock
+  detection_source: packages/@okta/vuepress-theme-prose/package.json
+  last_updated_by: francoislehoux-okta
+  last_updated_on: 2022-12-07 17:54:18.000000000 Z
+- name: recursive-readdir
+  description: Get an array of all files in a directory and subdirectories
+  package_url: https://www.npmjs.com/recursive-readdir
+  version: 2.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16636/default_5a21421012fa20e57fe0aeab31228f42e7118abc.png
+  detection_source_url: https://github.com/telebirr-playstore/telebirr-developer-docs/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: francoislehoux-okta
+  last_updated_on: 2022-12-07 17:54:18.000000000 Z
+- name: sass-loader
+  description: Sass loader for webpack
+  package_url: https://www.npmjs.com/sass-loader
+  version: 7.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15842/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/telebirr-playstore/telebirr-developer-docs/blob/master/yarn.lock
+  detection_source: packages/@okta/vuepress-site/package.json
+  last_updated_by: francoislehoux-okta
+  last_updated_on: 2023-01-31 23:06:55.000000000 Z
+- name: semver
+  description: The semantic version parser used by npm
+  package_url: https://www.npmjs.com/semver
+  version: 7.5.4
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18809/default_dad3dc9dde4b82dc2a7bd32aa091165887abe57b.png
+  detection_source_url: https://github.com/telebirr-playstore/telebirr-developer-docs/blob/master/yarn.lock
+  detection_source: packages/@okta/vuepress-site/package.json
+  last_updated_by: francoislehoux-okta
+  last_updated_on: 2022-12-07 17:54:18.000000000 Z
+- name: string-replace-loader
+  description: Replace loader for Webpack
+  package_url: https://www.npmjs.com/string-replace-loader
+  version: 2.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17648/default_894a45ad01fa93ac472db719cb1ef1b89f2924f0.png
+  detection_source_url: https://github.com/telebirr-playstore/telebirr-developer-docs/blob/master/yarn.lock
+  detection_source: packages/@okta/vuepress-site/package.json
+  last_updated_by: francoislehoux-okta
+  last_updated_on: 2022-04-22 15:49:21.000000000 Z
+- name: stylelint-order
+  description: A collection of order related linting rules for stylelint
+  package_url: https://www.npmjs.com/stylelint-order
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16709/default_9b37c4b9479b5cf61478ac117da829ccdd0ed0a0.png
+  detection_source_url: https://github.com/telebirr-playstore/telebirr-developer-docs/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: emikhasyak-okta
+  last_updated_on: 2023-11-30 18:10:19.000000000 Z
+- name: stylelint-scss
+  description: A collection of SCSS specific rules for stylelint
+  package_url: https://www.npmjs.com/stylelint-scss
+  version: 4.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16626/default_9012166d3e51cea5db6b4e69c80ace1c50b7509d.png
+  detection_source_url: https://github.com/telebirr-playstore/telebirr-developer-docs/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: emikhasyak-okta
+  last_updated_on: 2023-11-30 18:10:19.000000000 Z
+- name: vue
+  description: Vue
+  package_url: https://www.npmjs.com/vue
+  version: 2.6.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15844/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/telebirr-playstore/telebirr-developer-docs/blob/master/yarn.lock
+  detection_source: packages/@okta/vuepress-site/package.json
+  last_updated_by: Brian Retterer
+  last_updated_on: 2019-02-14 22:12:22.000000000 Z
